@@ -1,0 +1,4 @@
+tconst	primaryTitle	genres	averageRating	similarity_score
+tt1234567	Test Movie	Drama,Action	8.5	0.5495834326673141
+tt7654321	Action Thriller	Action,Thriller	7.2	0.0
+tt0000003	Pauvre Pierrot	Animation,Comedy,Romance	6.5	0.0

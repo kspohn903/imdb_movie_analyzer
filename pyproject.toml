@@ -1,0 +1,7 @@
+[project]
+name = "imdb-movie-dataset-analysis"
+version = "0.1.0"
+description = "This is a dynamic EDA Analysis application with intent for asynchronous data processing of the large filesets dynamically. This is accomplished in Python, and follows similar project objectivity as FlickFocus, JESUSC1/IMDB-Data-Insights File Repo Sets. This is for a graphical, generated fileset and results sets based on title trends using the same IMDB Datasets. The intent is analysis over several properties: genre similarities, titles based on popularity or high user ratings (weighted, unweighted Bayesian Prior Analysis; k = 10 (default; Top 10/Bottom 10)), gauging user scoring as a function, whilst showing more information about the staff, production parent companies, metadata parameters, and applies regression models for more apt Machine Learning Analysis, including Polynomial Analysis for plots and internal data analysis, whilst KNN Regression models for KPI analysis with deference to the KNN Regression Models in a class-based hierarchical model. As specified by said JESUSC1, identifying key factors that influence audience behavior is crucial in understanding the overall user intent and usability of the end user for simplicity's sake."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []

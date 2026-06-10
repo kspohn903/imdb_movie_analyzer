@@ -1,0 +1,33 @@
+{
+  "shape": [
+    5,
+    11
+  ],
+  "columns": [
+    "tconst",
+    "titleType",
+    "primaryTitle",
+    "originalTitle",
+    "isAdult",
+    "startYear",
+    "endYear",
+    "runtimeMinutes",
+    "genres",
+    "averageRating",
+    "numVotes"
+  ],
+  "dtypes": {
+    "tconst": "string",
+    "titleType": "category",
+    "primaryTitle": "string",
+    "originalTitle": "string",
+    "isAdult": "int8",
+    "startYear": "Int64",
+    "endYear": "string",
+    "runtimeMinutes": "string",
+    "genres": "string",
+    "averageRating": "float32",
+    "numVotes": "int32"
+  },
+  "memory_mb": 0.0
+}

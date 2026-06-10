@@ -1,0 +1,36 @@
+name.basics.tsv
+nconst	primaryName	birthYear	deathYear	primaryProfession	knownForTitles
+nm0000001	Fred Astaire	1899	1987	actor,miscellaneous,producer
+
+title.akas.tsv
+titleId	ordering	title	region	language	types	attributes	isOriginalTitle
+tt0000001	1	Carmencita	\N	\N	original	\N	1
+tt0000001	2	Carmencita	DE	\N	\N	literal title	0
+
+title.basics.tsv
+tconst	titleType	primaryTitle	originalTitle	isAdult	startYear	endYear	runtimeMinutes	genres
+tt0000001	short	Carmencita	Carmencita	0	1894	\N	1	Documentary,Short
+
+title.crew.tsv
+tconst	directors	writers
+tt0000001	nm0005690	\N
+tt0000002	nm0721526	\N
+tt0000003	nm0721526	nm0721526
+
+title.episode.tsv
+tconst	parentTconst	seasonNumber	episodeNumber
+tt0031458	tt32857063	\N	\N
+tt0041951	tt0041038	1	9
+tt0042816	tt0989125	1	17
+
+title.principals.tsv
+tconst	ordering	nconst	category	job	characters
+tt0000001	1	nm1588970	self	\N	["Self"]
+tt0000001	2	nm0005690	director	\N	\N
+
+title.ratings.tsv
+tconst	averageRating	numVotes
+tt0000001	5.7	2213
+tt0000002	5.5	318
+tt0000003	6.4	2330
+
